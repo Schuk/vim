@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/thsz/work/spamcops/libraries/perl/Spamcops-Mail-Complaint'
+let g:netrw_dirhist_2='/home/thsz/work/abusix/internal/Abusix/t/maxmind'
+let g:netrw_dirhist_3='/home/thsz/work/abusix/internal/Abusix'
+let g:netrw_dirhist_4='/home/thsz/work/spamcops/libraries/perl/Spamcops-Mail-Complaint'
+let g:netrw_dirhist_5='/home/thsz/work/abusix/internal/apnic/Abusix/RIR/scripts'
+let g:netrw_dirhist_6='/home/thsz/work/abusix/internal/ripe/scripts'
+let g:netrw_dirhist_7='/home/thsz/work/abusix/internal/qpsmtpd/config.sample'
+let g:netrw_dirhist_8='/home/thsz/work/abusix/internal/ripe/lib/Abusix/RIR'
+let g:netrw_dirhist_9='/home/thsz/work/abusix/internal/ripe/lib/Abusix/RIR/DB'
