@@ -10,3 +10,6 @@ colorscheme elflord
 set nomodeline
 set matchpairs+=<:>
 iab pdump use Data::Dumper qw();print STDERR Data::Dumper->Dumper();
+
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
