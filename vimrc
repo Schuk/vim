@@ -19,14 +19,18 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 set shiftround
-syntax on
-colorscheme elflord
+
+
 set nomodeline
 set matchpairs+=<:>
 iab pdump use Data::Dumper qw();print STDERR Data::Dumper->Dumper();
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+syntax enable
+set background=dark
+colorscheme solarized
 
 function! Tab_Or_Complete()
   if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
