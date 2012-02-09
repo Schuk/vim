@@ -2,6 +2,8 @@ set autoindent
 
 set filetype=on
 
+let g:tagbar_ctags_bin = '/usr/local/Cellar/ctags/5.8/bin/ctags'
+
 set incsearch
 set hlsearch
 set ruler
@@ -33,4 +35,4 @@ function! Tab_Or_Complete()
     return "\<Tab>"
   endif
 endfunction
-inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+" inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>

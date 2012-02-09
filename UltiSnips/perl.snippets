@@ -1,0 +1,39 @@
+snippet poe "POE::Session Scaffold (poe)"
+use POE;
+
+POE::Session->create(
+    inline_states => {
+        _start => sub {
+            my ( $kernel, $heap ) = @_[ KERNEL, HEAP ];
+            ${1:# body...}
+        },
+        _default => sub {
+        }
+    }
+);
+
+POE::Kernel->run();
+
+endsnippet
+
+snippet eve "POE (eve)nt"
+${1:event} => sub {
+    my ( $kernel, $heap ) = @_[ KERNEL, HEAP ];
+    ${2:# body...}
+},
+
+endsnippet
+
+snippet perl "Perl scaffold (poe)"
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+
+${1:# body...}
+
+1;
+
+endsnippet
